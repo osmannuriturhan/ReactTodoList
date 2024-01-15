@@ -39,6 +39,13 @@ form input {
   outline: none;
 }
 
+@media (max-width: 450px) {
+  form button,
+  form input {
+    font-size: 150%;
+  }
+}
+
 form button {
   color: #fff;
   background-color: #340436;
